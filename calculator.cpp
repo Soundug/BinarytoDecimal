@@ -3,10 +3,10 @@
 #include<stdlib>
 using namespace std;
 
-void main()
+int main()
 {
 float num1,num2,res;
-char choice,ch;
+int choice;
 
 do
 {
@@ -52,6 +52,6 @@ default: cout<<"\nWrong choice";
 }
 
 }while(choice!=5 && choice!=getchar());
-getch();
+return 0;
 
 }
